@@ -9,13 +9,13 @@ complexidade.
 Inclui TDD do lado da API
 
 --------------------
-Para executar o projeto execute os passos abaixo
+Para executar o projeto siga os passos abaixo
 
 1- git clone https://github.com/adrianoGaspar/potential-crud-tdd.git
 
 API
 ---
-A API Laravel roda sobre o conteiner DOCKER fornecido pelo framework (SAIL) com MYSQL, REDIS, NGINX e PHP8
+A API Laravel roda sob o conteiner DOCKER fornecido pelo framework (SAIL) com MYSQL, REDIS, NGINX e PHP8
 
 2- cd potential-crud-tdd/potential-crud-api
 3- composer install
@@ -47,7 +47,7 @@ O resultado esperado é:
 
 APP - Frontend
 ---
-A APP utiliza o framework VueJs 2 não roda sob conteiner DOCKER sendo necessário NODE e npm instalado na máquina
+A APP utiliza o framework VueJs 2 e não roda sob conteiner DOCKER sendo necessário NODE e npm instalados na máquina
 
 Subindo a APP:
 - no diretório raiz do projeto execute os comandos
