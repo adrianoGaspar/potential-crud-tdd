@@ -18,9 +18,13 @@ API
 A API Laravel roda sob o conteiner DOCKER fornecido pelo framework (SAIL) com MYSQL, REDIS, NGINX e PHP8
 
 2- cd potential-crud-tdd/potential-crud-api
+
 3- composer install
+
 4- ./vendor/bin/sail up -d
+
 5- ./vendor/bin/sail artisan migrate:refresh
+
 6- ./vendor/bin/sail artisan db:seed
 
 o endpoint da API é http://localhost/api
@@ -33,13 +37,18 @@ Os testes foram desenvolvidos de maneira simplória apenas para demonstrar conhe
 - ./vendor/bin/sail test
 
 O resultado esperado é:
+
  PASS  Tests\Unit\Test
-  ✓ example
+ ✓ example
 
    PASS  Tests\Feature\DeveloperTest
+   
   ✓ only logged in user can see all developers
+  
   ✓ only logged in user can create a developer
+  
   ✓ only logged in user can update a developer
+  
   ✓ only logged in user can delete a developer
 
   Tests:  5 passed
